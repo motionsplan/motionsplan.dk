@@ -21,8 +21,8 @@ function motionsplan_dk_profile_modules() {
  */
 function motionsplan_dk_profile_details() {
   return array(
-    'name' => 'teambuilder.vih.dk',
-    'description' => 'Select this profile to use with teambuilder.vih.dk.'
+    'name' => 'Motionsplan',
+    'description' => 'Select this profile to install motionsplan.'
   );
 }
 
