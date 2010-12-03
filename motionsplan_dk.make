@@ -1,6 +1,7 @@
 api = 2
 core = 6.x
 
+;contrib
 projects[addthis][subdir] = "contrib"
 
 projects[admin_menu][subdir] = "contrib"
@@ -95,8 +96,15 @@ projects[views_bulk_operations][subdir] = "contrib"
 
 projects[wysiwyg][subdir] = "contrib"
 
-projects[acquia_marina][type] = theme
-projects[acquia_marina][subdir] = contrib
+;custom
+projects[motionsplan][type] = "module"
+projects[motionsplan][download][type] = "git"
+projects[motionsplan][download][url] = "git://github.com/motionsplan/motionsplan-modules.git"
+
+;themes
+projects[exercise][type] = "theme"
+projects[exercise][download][type] = "git"
+projects[exercise][download][url] = "git://github.com/motionsplan/motionsplan-theme.git"
 
 ;libraries
 libraries[ckeditor][download][type] = "get"
