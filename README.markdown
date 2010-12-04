@@ -35,9 +35,13 @@ entire site, you can run this:
 
 #### Rebuild everything ####
 
-If you want to force a rebuild of everything, you can run this:
+If you want to force a rebuild of everything, you first need the module site-install6 which is a backport the Drupal 7 drush si commond:
 
-    drush si motionsplan_dk
+    drush site-install6 motionsplan_dk
+
+Now you can do:
+
+    drush site-install6 motionsplan_dk
 
 More information
 ----------------
