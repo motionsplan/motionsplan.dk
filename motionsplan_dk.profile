@@ -8,7 +8,14 @@
  *   An array of modules to enable.
  */
 function motionsplan_dk_profile_modules() {
-  return array('color', 'comment', 'help', 'menu', 'taxonomy', 'dblog');
+  return array(
+    // core modules
+    'block', 'comment', 'dblog', 'filter', 'help', 'menu', 'node', 'path', 'search', 'system', 'taxonomy', 'user',
+    // contrib
+    'admin_menu', 'antispam', 'autoload', 'cck', 'nodereference', 'text', 'devel', 'emfield', 'fbconnect',
+    'fckeditor', 'filefield', 'imageapi', 'imagecache', 'imagefield', 'pathauto',
+    'quiz', 'scheduler', 'similarterms', 'tagadelic', 'token', 'twitter', 'views'
+    );
 }
 
 /**
@@ -146,6 +153,6 @@ function motionsplan_dk_profile_tasks(&$task, $url) {
 function motionsplan_dk_form_alter(&$form, $form_state, $form_id) {
   if ($form_id == 'install_configure') {
     // Set motionsplan_dk for site name field.
-    $form['site_information']['site_name']['#default_value'] = $_SERVER['SERVER_NAME'];
+    $form['site_information']['site_name']['#default_value'] = 'Motionsplan';
   }
 }
