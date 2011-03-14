@@ -2,8 +2,7 @@
 api = 2
 
 core = 6.x
-
-projects[] = "drupal"
+projects[drupal][type] = core
 
 projects[motionsplan_dk][type] = "profile"
 projects[motionsplan_dk][download][type] = "git"
