@@ -22,6 +22,8 @@ projects[content_access][subdir] = "contrib"
 
 projects[content_profile][subdir] = "contrib"
 
+projects[contextual][subdir] = "contrib"
+
 projects[ctools][subdir] = "contrib"
 
 projects[devel][subdir] = "contrib"
