@@ -13,7 +13,7 @@ function motionsplan_dk_profile_modules() {
     'block', 'comment', 'dblog', 'filter', 'menu', 'node', 'path', 'search', 'system', 'taxonomy', 'user',
     // contrib
     'admin_menu', 'antispam', 'autoload', 'content', 'contextual', 'devel', 'emfield', 'fbconnect',
-    'fckeditor', 'filefield', 'imageapi', 'imagecache', 'imagefield', 'nodereference', 'pathauto',
+    'fckeditor', 'filefield', 'imageapi', 'imagecache', 'imagefield', 'libraries', 'nodereference', 'pathauto',
     'quiz', 'scheduler', 'similarterms', 'tagadelic', 'text', 'token', 'twitter', 'vertical_tabs', 'views'
     );
 }
