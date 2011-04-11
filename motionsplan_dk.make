@@ -33,6 +33,8 @@ projects[emfield][subdir] = "contrib"
 projects[features][subdir] = "contrib"
 
 projects[fbconnect][subdir] = "contrib"
+projects[fbconnect][download][type] = "git"
+projects[fbconnect][download][url] = "git://github.com/vectoroc/fbconnect.git"
 
 projects[fckeditor][subdir] = "contrib"
 
@@ -124,3 +126,8 @@ libraries[jquery_ui][download][type] = "get"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
 libraries[jquery_ui][directory_name] = "jquery.ui"
 libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
+
+libraries[facebook-client][download][type] = "get"
+libraries[facebook-client][download][url] = "http://github.com/downloads/vectoroc/fbconnect/facebook-client.zip"
+libraries[facebook-client][destination] = "modules/contrib/fbconnect"
+
