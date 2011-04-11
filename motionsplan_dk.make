@@ -32,7 +32,7 @@ projects[emfield][subdir] = "contrib"
 
 projects[features][subdir] = "contrib"
 
-projects[fbconnect][subdir] = "contrib"
+projects[fbconnect][subdir] = contrib
 
 projects[fckeditor][subdir] = "contrib"
 
@@ -124,3 +124,8 @@ libraries[jquery_ui][download][type] = "get"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
 libraries[jquery_ui][directory_name] = "jquery.ui"
 libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
+
+libraries[facebook-php-sdk][download][type] = "get"
+libraries[facebook-php-sdk][download][url] = "http://github.com/facebook/php-sdk/tarball/v2.1.1";
+libraries[facebook-php-sdk][destination] = "modules/contrib/fbconnect"
+
