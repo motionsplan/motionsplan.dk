@@ -62,6 +62,8 @@ projects[jquery_ui][subdir] = "contrib"
 
 projects[jquery_update][subdir] = "contrib"
 
+projects[l10n_update][subdir] = "contrib"
+
 projects[libraries][subdir] = "contrib"
 
 projects[link][subdir] = "contrib"
