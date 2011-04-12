@@ -104,6 +104,8 @@ projects[views_bulk_operations][subdir] = "contrib"
 
 projects[wysiwyg][subdir] = "contrib"
 
+projects[xmlsitemap][subdir] = "contrib"
+
 ;custom
 projects[motionsplan][type] = "module"
 projects[motionsplan][download][type] = "git"
@@ -113,6 +115,11 @@ projects[motionsplan][download][url] = "git://github.com/motionsplan/motionsplan
 projects[exercise][type] = "theme"
 projects[exercise][download][type] = "git"
 projects[exercise][download][url] = "git://github.com/motionsplan/motionsplan-theme.git"
+
+projects[fusion][subdir] = "contrib"
+projects[aquia_marina][subdir] = "contrib"
+projects[tao][subdir] = "contrib"
+projects[rubik][subdir] = "contrib"
 
 ;libraries
 libraries[ckeditor][download][type] = "get"
