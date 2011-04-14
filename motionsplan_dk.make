@@ -104,6 +104,8 @@ projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][subdir] = "contrib"
 
+projects[views_slideshow][subdir] = "contrib"
+
 projects[wysiwyg][subdir] = "contrib"
 
 projects[xmlsitemap][subdir] = "contrib"

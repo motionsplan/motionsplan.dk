@@ -14,7 +14,7 @@ function motionsplan_dk_profile_modules() {
     // contrib
     'admin_menu', 'antispam', 'autoload', 'content', 'contextual', 'devel', 'emfield', 'fbconnect',
     'fckeditor', 'filefield', 'googleanalytics', 'imageapi', 'imagecache', 'imagefield', 'l10n_update', 'libraries', 'nodereference', 'pathauto',
-    'quiz', 'scheduler', 'similarterms', 'tagadelic', 'text', 'token', 'twitter', 'vertical_tabs', 'views', 'xmlsitemap'
+    'quiz', 'scheduler', 'similarterms', 'tagadelic', 'text', 'token', 'twitter', 'vertical_tabs', 'views', 'views_slideshow', 'xmlsitemap'
     );
 }
 
