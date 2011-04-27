@@ -74,6 +74,8 @@ projects[nodewords][subdir] = "contrib"
 
 projects[nodewords_nodetype][subdir] = "contrib"
 
+projects[oauth][subdir] = "contrib"
+
 projects[path_redirect][subdir] = "contrib"
 
 projects[pathauto][subdir] = "contrib"
