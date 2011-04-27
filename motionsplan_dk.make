@@ -34,6 +34,8 @@ projects[features][subdir] = "contrib"
 
 projects[fbconnect][subdir] = contrib
 
+projects[fb_social][subdir] = contrib
+
 projects[fckeditor][subdir] = "contrib"
 
 projects[filefield][subdir] = "contrib"
@@ -83,6 +85,8 @@ projects[rules][subdir] = "contrib"
 projects[scheduler][subdir] = "contrib"
 
 projects[similarterms][subdir] = "contrib"
+
+projects[skinr][subdir] = "contrib"
 
 projects[spamspan][subdir] = "contrib"
 

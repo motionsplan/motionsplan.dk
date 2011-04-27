@@ -12,9 +12,9 @@ function motionsplan_dk_profile_modules() {
     // core modules
     'block', 'comment', 'dblog', 'filter', 'menu', 'node', 'path', 'search', 'system', 'taxonomy', 'user',
     // contrib
-    'admin_menu', 'antispam', 'autoload', 'content', 'contextual', 'devel', 'emfield', 'fbconnect',
+    'admin_menu', 'antispam', 'autoload', 'content', 'contextual', 'devel', 'emfield', 'fbconnect', 'fb_social',
     'fckeditor', 'filefield', 'googleanalytics', 'imageapi', 'imagecache', 'imagefield', 'l10n_update', 'libraries', 'nodereference', 'pathauto',
-    'quiz', 'scheduler', 'similarterms', 'tagadelic', 'text', 'token', 'twitter', 'vertical_tabs', 'views', 'views_slideshow', 'xmlsitemap'
+    'quiz', 'scheduler', 'similarterms', 'skinr', 'tagadelic', 'text', 'token', 'twitter', 'vertical_tabs', 'views', 'views_slideshow', 'xmlsitemap'
     );
 }
 
