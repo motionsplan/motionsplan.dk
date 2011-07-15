@@ -1,6 +1,6 @@
 name = motionsplan.dk
 description = Install profile for motionsplan.dk
-version = 0.1.0
+version = 6.x-1.0
 core = 6.x
 dependencies[] = block
 dependencies[] = color
@@ -26,6 +26,7 @@ dependencies[] = features
 dependencies[] = googleanalytics
 dependencies[] = libraries
 dependencies[] = pathauto
+dependencies[] = rpx
 dependencies[] = strongarm
 dependencies[] = views
 dependencies[] = views_ui

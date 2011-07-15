@@ -18,10 +18,6 @@ projects[cck][subdir] = "contrib"
 
 projects[comment_notify][subdir] = "contrib"
 
-projects[content_access][subdir] = "contrib"
-
-projects[content_profile][subdir] = "contrib"
-
 projects[contextual][subdir] = "contrib"
 
 projects[ctools][subdir] = "contrib"
@@ -31,10 +27,6 @@ projects[devel][subdir] = "contrib"
 projects[emfield][subdir] = "contrib"
 
 projects[features][subdir] = "contrib"
-
-projects[fbconnect][subdir] = contrib
-
-projects[fb_social][subdir] = contrib
 
 projects[fckeditor][subdir] = "contrib"
 
@@ -83,6 +75,8 @@ projects[pathauto][subdir] = "contrib"
 projects[quiz][subdir] = "contrib"
 
 projects[rules][subdir] = "contrib"
+
+projects[rpx][subdir] = "contrib"
 
 projects[scheduler][subdir] = "contrib"
 
@@ -141,10 +135,6 @@ libraries[jquery_ui][download][type] = "get"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
 libraries[jquery_ui][directory_name] = "jquery.ui"
 libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
-
-libraries[facebook-php-sdk][download][type] = "get"
-libraries[facebook-php-sdk][download][url] = "http://github.com/facebook/php-sdk/tarball/v2.1.1";
-libraries[facebook-php-sdk][destination] = "modules/contrib/fbconnect"
 
 libraries[tcpdf][download][type] = "get"
 libraries[tcpdf][download][url] = "http://pearhub.org/get/TCPDF-5.9.074.tgz";
