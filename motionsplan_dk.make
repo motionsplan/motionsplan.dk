@@ -153,10 +153,10 @@ libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jqu
 libraries[jquery_ui][directory_name] = "jquery.ui"
 libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
 
-libraries[tcpdf][download][type] = "get"
-libraries[tcpdf][download][url] = "http://pearhub.org/get/TCPDF-5.9.074.tgz";
-libraries[tcpdf][destination] = "libraries"
+;libraries[tcpdf][download][type] = "get"
+;libraries[tcpdf][download][url] = "http://pearhub.org/get/TCPDF-5.9.074.tgz";
+;libraries[tcpdf][destination] = "libraries"
 
-libraries[fpdf][download][type] = "get"
-libraries[fpdf][download][url] = "http://pearhub.org/get/FPDF-1.6.0.tgz";
-libraries[fpdf][destination] = "libraries"
+;libraries[fpdf][download][type] = "get"
+;libraries[fpdf][download][url] = "http://pearhub.org/get/FPDF-1.6.0.tgz";
+;libraries[fpdf][destination] = "libraries"
