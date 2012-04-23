@@ -138,11 +138,8 @@ projects[exercise][download][url] = "git://github.com/motionsplan/motionsplan-th
 projects[fusion][type] = theme
 projects[fusion][subdir] = contrib
 
-projects[aquia_marina][type] = theme
-projects[aquia_marina][subdir] = contrib
-
-projects[tao][type] = theme
-projects[tao][subdir] = contrib
+projects[acquia_marina][type] = theme
+projects[acquia_marina][subdir] = contrib
 
 ;libraries
 
