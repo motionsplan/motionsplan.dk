@@ -29,7 +29,8 @@ function motionsplan_dk_profile_modules() {
 function motionsplan_dk_profile_details() {
   return array(
     'name' => 'Motionsplan',
-    'description' => 'Select this profile to install motionsplan.'
+    'description' => 'Select this profile to install motionsplan.',
+    'old_short_name' => 'default' // @see http://omega8.cc/migrate-sites-between-install-profiles-easily-111
   );
 }
 
