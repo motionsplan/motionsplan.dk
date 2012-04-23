@@ -2,33 +2,36 @@ api = 2
 core = 6.x
 
 ;contrib
-projects[addthis][subdir] = "contrib"
 
-projects[admin_menu][subdir] = "contrib"
+projects[admin_menu][subdir] = contrib
+projects[admin_menu][version] = 1.6
 
-projects[admin_theme][subdir] = "contrib"
+projects[antispam][subdir] = contrib
+projects[antispam][version] = 1.3
 
-projects[antispam][subdir] = "contrib"
+projects[autoload][subdir] = contrib
+projects[autoload][version] = 1.4
 
-projects[autoload][subdir] = "contrib"
+projects[cck][subdir] = contrib
+projects[cck][version] = 2.9
 
-projects[bookmarks][subdir] = "contrib"
+projects[comment_notify][subdir] = contrib
+projects[comment_notify][version] = 1.5 
 
-projects[cck][subdir] = "contrib"
+projects[contextual][subdir] = contrib
+projects[contextual][version] = 1.0
 
-projects[comment_notify][subdir] = "contrib"
+projects[ctools][subdir] = contrib
+projects[ctools][version] = 1.8
 
-projects[contextual][subdir] = "contrib"
+projects[emfield][subdir] = contrib
+projects[emfield][version] = 1.26
 
-projects[ctools][subdir] = "contrib"
+projects[features][subdir] = contrib
+projects[features][version] = 1.0
 
-projects[devel][subdir] = "contrib"
-
-projects[emfield][subdir] = "contrib"
-
-projects[features][subdir] = "contrib"
-
-projects[fckeditor][subdir] = "contrib"
+projects[fckeditor][subdir] = contrib
+projects[fckeditor][version] = 2.1
 
 projects[filefield][subdir] = "contrib"
 
