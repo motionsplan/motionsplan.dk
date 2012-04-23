@@ -1,5 +1,7 @@
 <?php
-// $Id: motionsplan_dk.profile,v 1.22 2007/12/17 12:43:34 goba Exp $
+/**
+ * @file
+ */
 
 /**
  * Return an array of the modules to be enabled when this profile is installed.
@@ -12,7 +14,7 @@ function motionsplan_dk_profile_modules() {
     // core modules
     'block', 'comment', 'dblog', 'filter', 'menu', 'node', 'path', 'search', 'system', 'taxonomy', 'user',
     // contrib
-    'admin_menu', 'antispam', 'autoload', 'content', 'contextual', 'devel', 'emfield', 
+    'admin_menu', 'antispam', 'autoload', 'content', 'contextual', 'emfield', 
     'fckeditor', 'filefield', 'googleanalytics', 'imageapi', 'imagecache', 'imagefield', 'l10n_update', 'libraries', 'nodereference', 'pathauto', 'oauth',
     'quiz', 'rpx', 'scheduler', 'similarterms', 'skinr', 'tagadelic', 'text', 'token', 'twitter', 'vertical_tabs', 'views', 'views_slideshow', 'xmlsitemap'
     );
