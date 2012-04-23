@@ -73,7 +73,7 @@ projects[nodereference_explorer][subdir] = contrib
 projects[nodereference_explorer][version] = 1.2
 
 projects[oauth][subdir] = contrib
-projects[oauth][version] = 2.02
+projects[oauth][version] = 3.0-beta4
 
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.5
@@ -125,27 +125,27 @@ projects[xmlsitemap][version] = 2.0-beta2
 
 ;custom
 
-projects[motionsplan][type] = "module"
+projects[motionsplan][type] = module
 projects[motionsplan][download][type] = "git"
 projects[motionsplan][download][url] = "git://github.com/motionsplan/motionsplan-modules.git"
 
 ;themes
 
-projects[exercise][type] = "theme"
+projects[exercise][type] = theme
 projects[exercise][download][type] = "git"
 projects[exercise][download][url] = "git://github.com/motionsplan/motionsplan-theme.git"
 
+projects[fusion][type] = theme
 projects[fusion][subdir] = contrib
 projects[fusion][version] = 1.0
 
+projects[aquia_marina][type] = theme
 projects[aquia_marina][subdir] = contrib
 projects[aquia_marina][version] = 3.1
 
-projects[tao][subdir] = contrib
+projects[tao][type] = theme
+projects[tao][subdir] = theme
 projects[tao][version] = 3.3
-
-projects[rubik][subdir] = contrib
-projects[rubik][version] = 3.0-beta3
 
 ;libraries
 
