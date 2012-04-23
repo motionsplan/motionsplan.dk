@@ -33,85 +33,77 @@ projects[features][version] = 1.0
 projects[fckeditor][subdir] = contrib
 projects[fckeditor][version] = 2.1
 
-projects[filefield][subdir] = "contrib"
+projects[filefield][subdir] = contrib
+projects[filefield][version] = 3.9
 
-projects[flag][subdir] = "contrib"
+projects[flag][subdir] = contrib
+projects[flag][version] = 1.3
 
-projects[follow][subdir] = "contrib"
+projects[google_analytics][subdir] = contrib
+projects[google_analytics][version] = 3.3
 
-projects[globalredirect][subdir] = "contrib"
+projects[imageapi][subdir] = contrib
+projects[imageapi][version] = 1.9
 
-projects[google_analytics][subdir] = "contrib"
+projects[imagecache][subdir] = contrib
+projects[imagecache][version] = 2.0-beta10
 
-projects[i18n][subdir] = "contrib"
+projects[imagefield][subdir] = contrib
+projects[imagefield][version] = 3.9
 
-projects[image_resize_filter][subdir] = "contrib"
+projects[jquery_ui][subdir] = contrib
+projects[jquery_ui][version] = 1.4
 
-projects[imageapi][subdir] = "contrib"
+projects[l10n_update][subdir] = contrib
+projects[l10n_update][version] = 1.0-alpha4
 
-projects[imagecache][subdir] = "contrib"
+projects[libraries][subdir] = contrib
+projects[libraries][version] = 1.0
 
-projects[imagecache_actions][subdir] = "contrib"
+projects[pathauto][subdir] = contrib
+projects[pathauto][version] = 1.5
 
-projects[imagefield][subdir] = "contrib"
+projects[quiz][subdir] = contrib
+projects[quiz][versioin] = 4.0
 
-projects[jquery_ui][subdir] = "contrib"
+projects[rpx][subdir] = contrib
+projects[rpx][version] = 1.4
 
-projects[jquery_update][subdir] = "contrib"
+projects[scheduler][subdir] = contrib
+projects[scheduler][version] = 1.8
 
-projects[l10n_update][subdir] = "contrib"
+projects[similarterms][subdir] = contrib
+projects[similarterms][version] = 1.18
 
-projects[libraries][subdir] = "contrib"
+projects[skinr][subdir] = contrib
+projects[skinr][version] = 1.6
 
-projects[link][subdir] = "contrib"
+projects[strongarm][subdir] = contrib
+projects[strongarm][version] = 2.0
 
-projects[nodewords][subdir] = "contrib"
+projects[tagadelic][subdir] = contrib
+projects[tagadelic][version] = 1.2
 
-projects[nodewords_nodetype][subdir] = "contrib"
+projects[token][subdir] = contrib
+projects[token][version] = 1.15
 
-projects[oauth][subdir] = "contrib"
+projects[twitter][subdir] = contrib
+projects[twitter][version] = 3.0-beta3
 
-projects[path_redirect][subdir] = "contrib"
+projects[vertical_tabs][subdir] = contrib
+projects[vertical_tabs][version] = 1.0-rc1
 
-projects[pathauto][subdir] = "contrib"
+projects[views][subdir] = contrib
+projects[views][version] = 2.12
 
-projects[quiz][subdir] = "contrib"
+projects[views_bulk_operations][subdir] = contrib
+projects[views_bulk_operations][version] = 1.10
 
-projects[rules][subdir] = "contrib"
+projects[views_slideshow][subdir] = contrib
+projects[views_slideshow][version] = 2.3
 
-projects[rpx][subdir] = "contrib"
-
-projects[scheduler][subdir] = "contrib"
-
-projects[similarterms][subdir] = "contrib"
-
-projects[skinr][subdir] = "contrib"
-
-projects[spamspan][subdir] = "contrib"
-
-projects[strongarm][subdir] = "contrib"
-
-projects[suggestedterms][subdir] = "contrib"
-
-projects[tagadelic][subdir] = "contrib"
-
-projects[token][subdir] = "contrib"
-
-projects[transliteration][subdir] = "contrib"
-
-projects[twitter][subdir] = "contrib"
-
-projects[vertical_tabs][subdir] = "contrib"
-
-projects[views][subdir] = "contrib"
-
-projects[views_bulk_operations][subdir] = "contrib"
-
-projects[views_slideshow][subdir] = "contrib"
-
-projects[wysiwyg][subdir] = "contrib"
-
-projects[xmlsitemap][subdir] = "contrib"
+projects[xmlsitemap][subdir] = contrib
+projects[xmlsitemap][version] = 2.0-beta2
 
 ;custom
 projects[motionsplan][type] = "module"
