@@ -24,6 +24,9 @@ projects[contextual][version] = 1.0
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.8
 
+projects[date][subdir] = contrib
+projects[date][version] = 2.7
+
 projects[emfield][subdir] = contrib
 projects[emfield][version] = 1.26
 
@@ -51,6 +54,12 @@ projects[imagecache][version] = 2.0-beta10
 projects[imagefield][subdir] = contrib
 projects[imagefield][version] = 3.9
 
+projects[inactive_user][subdir] = contrib
+projects[inactive_user][version] = 1.0-beta2
+
+projects[insert_block][subdir] = contrib
+projects[insert_block][version] = 1.x-dev
+
 projects[jquery_ui][subdir] = contrib
 projects[jquery_ui][version] = 1.4
 
@@ -59,6 +68,12 @@ projects[l10n_update][version] = 1.0-alpha4
 
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 1.0
+
+projects[nodereference_explorer][subdir] = contrib
+projects[nodereference_explorer][version] = 1.2
+
+projects[oauth][subdir] = contrib
+projects[oauth][version] = 2.02
 
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.5
@@ -90,6 +105,9 @@ projects[token][version] = 1.15
 projects[twitter][subdir] = contrib
 projects[twitter][version] = 3.0-beta3
 
+projects[upgrade_status][subdir] = contrib
+projects[upgrade_status][version] = 1.1
+
 projects[vertical_tabs][subdir] = contrib
 projects[vertical_tabs][version] = 1.0-rc1
 
@@ -106,21 +124,31 @@ projects[xmlsitemap][subdir] = contrib
 projects[xmlsitemap][version] = 2.0-beta2
 
 ;custom
+
 projects[motionsplan][type] = "module"
 projects[motionsplan][download][type] = "git"
 projects[motionsplan][download][url] = "git://github.com/motionsplan/motionsplan-modules.git"
 
 ;themes
+
 projects[exercise][type] = "theme"
 projects[exercise][download][type] = "git"
 projects[exercise][download][url] = "git://github.com/motionsplan/motionsplan-theme.git"
 
-projects[fusion][subdir] = "contrib"
-projects[aquia_marina][subdir] = "contrib"
-projects[tao][subdir] = "contrib"
-projects[rubik][subdir] = "contrib"
+projects[fusion][subdir] = contrib
+projects[fusion][version] = 1.0
+
+projects[aquia_marina][subdir] = contrib
+projects[aquia_marina][version] = 3.1
+
+projects[tao][subdir] = contrib
+projects[tao][version] = 3.3
+
+projects[rubik][subdir] = contrib
+projects[rubik][version] = 3.0-beta3
 
 ;libraries
+
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.4.1/ckeditor_3.4.1.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
