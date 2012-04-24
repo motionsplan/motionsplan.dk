@@ -3,7 +3,7 @@ api = 2
 
 core = 6.x
 projects[drupal][type] = core
-projects[drupal][version] = 6.20
+projects[drupal][version] = 6.25
 
 projects[motionsplan_dk][type] = "profile"
 projects[motionsplan_dk][download][type] = "git"
