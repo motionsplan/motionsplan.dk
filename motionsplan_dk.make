@@ -1,7 +1,7 @@
 api = 2
 core = 6.x
 
-;contrib
+; contrib
 
 projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 1.6
@@ -123,13 +123,13 @@ projects[views_slideshow][version] = 2.3
 projects[xmlsitemap][subdir] = contrib
 projects[xmlsitemap][version] = 2.0-beta2
 
-;custom
+; custom
 
 projects[motionsplan][type] = module
 projects[motionsplan][download][type] = "git"
 projects[motionsplan][download][url] = "git://github.com/motionsplan/motionsplan-modules.git"
 
-;themes
+; themes
 
 projects[exercise][type] = theme
 projects[exercise][download][type] = "git"
@@ -141,7 +141,7 @@ projects[fusion][subdir] = contrib
 projects[acquia_marina][type] = theme
 projects[acquia_marina][subdir] = contrib
 
-;libraries
+; libraries
 
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.4.1/ckeditor_3.4.1.zip"
@@ -153,10 +153,10 @@ libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jqu
 libraries[jquery_ui][directory_name] = "jquery.ui"
 libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
 
-;libraries[tcpdf][download][type] = "get"
-;libraries[tcpdf][download][url] = "http://pearhub.org/get/TCPDF-5.9.074.tgz";
-;libraries[tcpdf][destination] = "libraries"
+libraries[tcpdf][download][type] = "get"
+libraries[tcpdf][download][url] = "http://sourceforge.net/projects/tcpdf/files/tcpdf_5_9_158.zip/download";
+libraries[tcpdf][destination] = "libraries"
 
-;libraries[fpdf][download][type] = "get"
-;libraries[fpdf][download][url] = "http://pearhub.org/get/FPDF-1.6.0.tgz";
-;libraries[fpdf][destination] = "libraries"
+libraries[fpdf][download][type] = "get"
+libraries[fpdf][download][url] = "http://www.fpdf.org/en/dl.php?v=17&f=tgz";
+libraries[fpdf][destination] = "libraries"
