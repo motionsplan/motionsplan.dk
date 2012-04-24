@@ -4,7 +4,7 @@ core = 6.x
 ; contrib
 
 projects[admin_menu][subdir] = contrib
-projects[admin_menu][version] = 1.6
+projects[admin_menu][version] = 1.8
 
 projects[antispam][subdir] = contrib
 projects[antispam][version] = 1.3
@@ -16,7 +16,7 @@ projects[cck][subdir] = contrib
 projects[cck][version] = 2.9
 
 projects[comment_notify][subdir] = contrib
-projects[comment_notify][version] = 1.5 
+projects[comment_notify][version] = 1.6
 
 projects[contextual][subdir] = contrib
 projects[contextual][version] = 1.0
@@ -25,19 +25,19 @@ projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.8
 
 projects[date][subdir] = contrib
-projects[date][version] = 2.7
+projects[date][version] = 2.8
 
 projects[emfield][subdir] = contrib
 projects[emfield][version] = 1.26
 
 projects[features][subdir] = contrib
-projects[features][version] = 1.0
+projects[features][version] = 1.2
 
 projects[fckeditor][subdir] = contrib
-projects[fckeditor][version] = 2.1
+projects[fckeditor][version] = 2.3
 
 projects[filefield][subdir] = contrib
-projects[filefield][version] = 3.9
+projects[filefield][version] = 3.10
 
 projects[flag][subdir] = contrib
 projects[flag][version] = 1.3
@@ -46,13 +46,13 @@ projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 3.3
 
 projects[imageapi][subdir] = contrib
-projects[imageapi][version] = 1.9
+projects[imageapi][version] = 1.10
 
 projects[imagecache][subdir] = contrib
-projects[imagecache][version] = 2.0-beta10
+projects[imagecache][version] = 2.0-beta12
 
 projects[imagefield][subdir] = contrib
-projects[imagefield][version] = 3.9
+projects[imagefield][version] = 3.10
 
 projects[inactive_user][subdir] = contrib
 projects[inactive_user][version] = 1.0-beta2
@@ -61,10 +61,10 @@ projects[insert_block][subdir] = contrib
 projects[insert_block][version] = 1.x-dev
 
 projects[jquery_ui][subdir] = contrib
-projects[jquery_ui][version] = 1.4
+projects[jquery_ui][version] = 1.5
 
 projects[l10n_update][subdir] = contrib
-projects[l10n_update][version] = 1.0-alpha4
+projects[l10n_update][version] = 1.0-beta3
 
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 1.0
@@ -76,13 +76,13 @@ projects[oauth][subdir] = contrib
 projects[oauth][version] = 3.0-beta4
 
 projects[pathauto][subdir] = contrib
-projects[pathauto][version] = 1.5
+projects[pathauto][version] = 1.6
 
 projects[quiz][subdir] = contrib
 projects[quiz][versioin] = 4.0
 
 projects[rpx][subdir] = contrib
-projects[rpx][version] = 1.4
+projects[rpx][version] = 2.2
 
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.8
@@ -94,34 +94,31 @@ projects[skinr][subdir] = contrib
 projects[skinr][version] = 1.6
 
 projects[strongarm][subdir] = contrib
-projects[strongarm][version] = 2.0
+projects[strongarm][version] = 2.1
 
 projects[tagadelic][subdir] = contrib
-projects[tagadelic][version] = 1.2
+projects[tagadelic][version] = 1.3
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.15
+projects[token][version] = 1.18
 
 projects[twitter][subdir] = contrib
-projects[twitter][version] = 3.0-beta3
+projects[twitter][version] = 3.0-beta9
 
 projects[upgrade_status][subdir] = contrib
 projects[upgrade_status][version] = 1.1
 
 projects[vertical_tabs][subdir] = contrib
-projects[vertical_tabs][version] = 1.0-rc1
+projects[vertical_tabs][version] = 1.0-rc2
 
 projects[views][subdir] = contrib
-projects[views][version] = 2.12
+projects[views][version] = 2.16
 
 projects[views_bulk_operations][subdir] = contrib
-projects[views_bulk_operations][version] = 1.10
+projects[views_bulk_operations][version] = 1.13
 
 projects[views_slideshow][subdir] = contrib
-projects[views_slideshow][version] = 2.3
-
-projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][version] = 2.0-beta2
+projects[views_slideshow][version] = 2.4
 
 ; custom
 
