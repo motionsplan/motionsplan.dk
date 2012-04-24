@@ -154,11 +154,11 @@ libraries[jquery_ui][directory_name] = "jquery.ui"
 libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
 
 libraries[tcpdf][download][type] = "git"
-libraries[tcpdf][download][url] = "git://tcpdf.git.sourceforge.net/gitroot/tcpdf/tcpdf";
-libraries[tcpdf][download][revision] = "5.9.074";
+libraries[tcpdf][download][url] = git://tcpdf.git.sourceforge.net/gitroot/tcpdf/tcpdf
+libraries[tcpdf][download][revision] = 5.9.074
 libraries[tcpdf][destination] = "libraries"
 
 libraries[fpdf][download][type] = "git"
-libraries[fpdf][download][url] = "git://github.com/lsolesen/fpdf.git";
+libraries[fpdf][download][url] = git://github.com/lsolesen/fpdf.git
 libraries[fpdf][download][revision] = "1.6.0";
 libraries[fpdf][destination] = "libraries"
