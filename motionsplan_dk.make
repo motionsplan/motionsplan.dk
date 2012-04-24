@@ -154,9 +154,9 @@ libraries[jquery_ui][directory_name] = "jquery.ui"
 libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
 
 libraries[tcpdf][download][type] = "get"
-libraries[tcpdf][download][url] = "http://sourceforge.net/projects/tcpdf/files/tcpdf_5_9_158.zip/download";
+libraries[tcpdf][download][url] = "http://downloads.sourceforge.net/project/tcpdf/tcpdf_5_9_158.zip?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Ftcpdf%2Ffiles%2F&ts=1335250592&use_mirror=freefr";
 libraries[tcpdf][destination] = "libraries"
 
 libraries[fpdf][download][type] = "get"
-libraries[fpdf][download][url] = "http://www.fpdf.org/en/dl.php?v=17&f=tgz";
+libraries[fpdf][download][url] = "https://github.com/lsolesen/fpdf/zipball/master";
 libraries[fpdf][destination] = "libraries"
