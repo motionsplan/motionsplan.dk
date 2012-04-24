@@ -155,7 +155,6 @@ libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
 
 libraries[tcpdf][download][type] = "git"
 libraries[tcpdf][download][url] = git://tcpdf.git.sourceforge.net/gitroot/tcpdf/tcpdf
-libraries[tcpdf][download][tag] = 5.9.074
 libraries[tcpdf][destination] = "libraries"
 
 libraries[fpdf][download][type] = "git"
