@@ -12,6 +12,9 @@ projects[antispam][version] = 1.3
 projects[autoload][subdir] = contrib
 projects[autoload][version] = 1.4
 
+projects[boost][subdir] = contrib
+projects[boost][version] = 1.18
+
 projects[cck][subdir] = contrib
 projects[cck][version] = 2.9
 
