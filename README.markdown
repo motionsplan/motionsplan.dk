@@ -38,8 +38,3 @@ entire site, you can run this:
 If you want to force a rebuild of everything, you can do:
 
     drush si motionsplan_dk
-
-More information
-----------------
-
-See more on [Drupal deployments & workflows with version control, drush_make, and Aegir](http://www.migueljacq.com/content/drupal-deployments-workflows-version-control-drushmake-and-aegir)
