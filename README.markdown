@@ -1,4 +1,4 @@
-[motionsplan.dk](http://motionsplan.dk)
+[motionsplan.dk](http://motionsplan.dk) [![Build Status](https://secure.travis-ci.org/motionsplan/motionsplan.dk.png?branch=master)](http://travis-ci.org/motionsplan/motionsplan.dk)
 ==
 
 Installation profile for motionsplan.dk
