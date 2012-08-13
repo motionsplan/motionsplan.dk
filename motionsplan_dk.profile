@@ -37,18 +37,6 @@ function motionsplan_dk_profile_details() {
 }
 
 /**
- * Return a list of tasks that this profile supports.
- *
- * @return
- *   A keyed array of tasks the profile will perform during
- *   the final stage. The keys of the array will be used internally,
- *   while the values will be displayed to the user in the installer
- *   task list.
- */
-function motionsplan_dk_profile_task_list() {
-}
-
-/**
  * Perform any final installation tasks for this profile.
  *
  * The installer goes through the profile-select -> locale-select
