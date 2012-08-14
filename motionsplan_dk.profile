@@ -15,8 +15,9 @@ function motionsplan_dk_profile_modules() {
     'block', 'comment', 'dblog', 'filter', 'menu', 'node', 'path', 'search', 'system', 'taxonomy', 'user',
     // contrib
     'admin_menu', 'antispam', 'autoload', 'content', 'contextual', 'emfield', 
-    'fckeditor', 'filefield', 'googleanalytics', 'imageapi', 'imagecache', 'imagefield', 'l10n_update', 'libraries', 'nodereference', 'pathauto', 'oauth',
-    'quiz', 'rpx', 'scheduler', 'similarterms', 'skinr', 'tagadelic', 'text', 'token', 'twitter', 'vertical_tabs', 'views', 'views_slideshow', 'xmlsitemap'
+    'fckeditor', 'filefield', 'googleanalytics', 'imageapi', 'imagecache', 'imagefield', 
+    'libraries', 'nodereference', 'pathauto', 'oauth', 'quiz', 'rpx', 'scheduler', 'similarterms', 'skinr', 
+    'tagadelic', 'token', 'twitter', 'vertical_tabs', 'views', 'views_slideshow', 'xmlsitemap'
     );
 }
 
