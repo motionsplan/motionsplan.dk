@@ -49,3 +49,22 @@ function motionsplan_dk_form_alter(&$form, $form_state, $form_id) {
     $form['site_information']['site_name']['#default_value'] = 'Motionsplan';
   }
 }
+
+/**
+ * Implementation of hook_profile_tasks().
+ */
+function motionsplan_dk_profile_tasks() {
+
+  // Install the core required modules and our extra modules
+  $core_required = array('block', 'filter', 'node', 'system', 'user');
+  install_include(array_merge(motionsplan_dk_profile_modules(), $core_required));
+
+  // Change anonymous user's permissions - since anonymous user is always rid 1 we don't need to retrieve it
+  $perms = array(
+    'access content', 
+    'access comments', 
+    'post comments',
+  );
+
+  install_add_permissions(1, $perms);
+}
