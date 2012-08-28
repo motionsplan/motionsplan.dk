@@ -12,7 +12,7 @@
 function motionsplan_dk_profile_modules() {
   return array(
     // core modules
-    'comment', 'menu', 'path', 'search', 'taxonomy'
+    'comment', 'menu', 'path', 'search', 'taxonomy',
     // contrib
     'admin_menu', 'autoload', 'content', 'contextual', 'emfield', 
     'fckeditor', 'filefield', 'imageapi', 'imagecache', 'imagefield', 
