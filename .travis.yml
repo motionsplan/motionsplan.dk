@@ -16,7 +16,7 @@ before_script:
   - drush make motionsplan_dk.build ../motionsplan-dev.dk
   - cd ../motionsplan-dev.dk
   - sudo chmod -R 777 sites/
-  - drush si motionsplan_dk --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=VIH@2012 --site-mail=admin@example.com --site-name="motionsplan.dk" --yes
+  - drush si motionsplan_dk --verbose --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=VIH@2012 --site-mail=admin@example.com --site-name="motionsplan.dk" --yes
   - drush cc all --yes
 
 script: 
