@@ -12,12 +12,12 @@
 function motionsplan_dk_profile_modules() {
   return array(
     // core modules
-    'block', 'comment', 'filter', 'menu', 'node', 'path', 'search', 'system', 'taxonomy', 'user',
+    'comment', 'menu', 'path', 'search', 'taxonomy'
     // contrib
     'admin_menu', 'autoload', 'content', 'contextual', 'emfield', 
     'fckeditor', 'filefield', 'imageapi', 'imagecache', 'imagefield', 
-    'libraries', 'nodereference', 'pathauto', 'oauth', 'quiz', 'scheduler', 
-    'tagadelic', 'token', 'twitter', 'vertical_tabs', 'views', 'views_slideshow', 'xmlsitemap'
+    'libraries', 'pathauto',
+    'tagadelic', 'token', 'vertical_tabs', 'views', 'views_slideshow'
     );
 }
 
@@ -58,13 +58,4 @@ function motionsplan_dk_profile_tasks() {
   // Install the core required modules and our extra modules
   $core_required = array('block', 'filter', 'node', 'system', 'user');
   install_include(array_merge(motionsplan_dk_profile_modules(), $core_required));
-
-  // Change anonymous user's permissions - since anonymous user is always rid 1 we don't need to retrieve it
-  $perms = array(
-    'access content', 
-    'access comments', 
-    'post comments',
-  );
-
-  install_add_permissions(1, $perms);
 }
