@@ -3,7 +3,6 @@ core = 7.x
 
 ; contrib modules ;;;;;;;;;;;;;;;;;;;;;;
 
-
 projects[comment_notify][subdir] = contrib
 projects[comment_notify][version] = 1.1
 
@@ -12,6 +11,9 @@ projects[ctools][version] = 1.2
 
 projects[features][subdir] = contrib
 projects[features][version] = 1.0
+
+projects[file_entity][subdir] = contrib
+projects[file_entity][version] = 2.0-unstable6
 
 projects[flag][subdir] = contrib
 projects[flag][version] = 2.0-beta9
@@ -25,11 +27,17 @@ projects[l10n_update][version] = 1.0-beta3
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.0
 
+projects[media][subdir] = contrib
+projects[media][version] = 2.0-unstable6
+
+projects[media_youtube][subdir] = contrib
+projects[media_youtube][version] = 1.0-beta3
+
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.2
 
-;projects[quiz][subdir] = contrib
-;projects[quiz][versioin] = 4.0
+projects[quiz][subdir] = contrib
+projects[quiz][versioin] = 4.0-alpha9
 
 projects[rpx][subdir] = contrib
 projects[rpx][version] = 2.2
