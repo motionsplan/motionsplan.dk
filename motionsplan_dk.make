@@ -37,7 +37,7 @@ projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.2
 
 projects[quiz][subdir] = contrib
-projects[quiz][versioin] = 4.0-alpha9
+projects[quiz][version] = 4.0-alpha9
 
 projects[rpx][subdir] = contrib
 projects[rpx][version] = 2.2
