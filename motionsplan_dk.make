@@ -22,7 +22,7 @@ projects[contextual][subdir] = contrib
 projects[contextual][version] = 1.0
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.8
+projects[ctools][version] = 1.9
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.8
@@ -49,7 +49,7 @@ projects[imageapi][subdir] = contrib
 projects[imageapi][version] = 1.10
 
 projects[imagecache][subdir] = contrib
-projects[imagecache][version] = 2.0-beta12
+projects[imagecache][version] = 2.0-rc1
 
 projects[imagefield][subdir] = contrib
 projects[imagefield][version] = 3.10
@@ -94,7 +94,7 @@ projects[skinr][subdir] = contrib
 projects[skinr][version] = 1.6
 
 projects[strongarm][subdir] = contrib
-projects[strongarm][version] = 2.1
+projects[strongarm][version] = 2.2
 
 projects[tagadelic][subdir] = contrib
 projects[tagadelic][version] = 1.3
