@@ -55,6 +55,9 @@ projects[views_bulk_operations][version] = 3.0-rc1
 projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.0
 
+projects[wysiwyg][subdir] = contrib
+projects[wysiwyg][version] = 2.1
+
 ; custom ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 projects[motionsplan][type] = module
