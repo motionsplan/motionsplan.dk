@@ -1,7 +1,9 @@
 name = motionsplan.dk
 description = Install profile for motionsplan.dk
-version = 6.x-1.0
-core = 6.x
+version = 7.x-1.0
+core = 7.x
+
+; core modules ;;;;;;;;;;;;;;
 
 dependencies[] = block
 dependencies[] = color
@@ -19,7 +21,8 @@ dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
 
-;contrib
+; contrib modules ;;;;;;;;;;;;
+
 dependencies[] = features
 dependencies[] = googleanalytics
 dependencies[] = libraries
