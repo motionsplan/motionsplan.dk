@@ -115,6 +115,11 @@ libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jqu
 libraries[jquery_ui][directory_name] = "jquery.ui"
 libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
 
+libraries[jquery.cycle][download][type] = "get"
+libraries[jquery.cycle][download][url] = "https://raw.github.com/malsup/cycle/master/jquery.cycle.all.js"
+libraries[jquery.cycle][directory_name] = "jquery.cycle"
+libraries[jquery.cycle][destination] = "libraries"
+
 libraries[tcpdf][download][type] = "git"
 libraries[tcpdf][download][url] = git://tcpdf.git.sourceforge.net/gitroot/tcpdf/tcpdf
 libraries[tcpdf][destination] = "libraries"
