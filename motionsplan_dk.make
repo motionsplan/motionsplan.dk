@@ -12,6 +12,9 @@ projects[comment_notify][version] = 1.1
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.2
 
+projects[emfield][subdir] = contrib
+projects[emfield[version] = 1.0-alpha1
+
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-rc3
 
@@ -47,6 +50,9 @@ projects[quiz][version] = 4.0-alpha9
 
 projects[rpx][subdir] = contrib
 projects[rpx][version] = 2.2
+
+projects[references][subdir] = contrib
+projects[references][version] = 2.0
 
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.0
