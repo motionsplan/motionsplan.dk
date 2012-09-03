@@ -69,6 +69,9 @@ projects[strongarm][version] = 2.0
 projects[token][subdir] = contrib
 projects[token][version] = 1.2
 
+projects[translation_helpers][subdir] = contrib
+projects[translation_helpers][version] = 1.0
+
 projects[views][subdir] = contrib
 projects[views][version] = 3.5
 
