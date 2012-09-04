@@ -39,6 +39,9 @@ projects[l10n_update][version] = 1.0-beta3
 projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.0
 
+projects[mailchimp][subdir] = contrib
+projects[mailchimp][version] = 2.6
+
 projects[media][subdir] = contrib
 projects[media][version] = 2.0-unstable6
 
