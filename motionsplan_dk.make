@@ -19,7 +19,7 @@ projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-rc3
 
 projects[entityreference][subdir] = contrib
-projects[entityreference][version] = 1.0-rc3
+projects[entityreference][version] = 1.x-dev
 
 projects[features][subdir] = contrib
 projects[features][version] = 1.0
