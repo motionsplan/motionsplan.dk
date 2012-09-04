@@ -59,6 +59,7 @@ projects[quiz][version] = 4.0-alpha9
 
 projects[rpx][subdir] = contrib
 projects[rpx][version] = 2.2
+projects[rpx][patch][1678124] = http://drupal.org/files/rpx-1678124-1.patch
 
 projects[references][subdir] = contrib
 projects[references][version] = 2.0
