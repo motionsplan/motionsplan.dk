@@ -110,6 +110,11 @@ projects[motionsplan][download][type] = "git"
 projects[motionsplan][download][url] = "git://github.com/motionsplan/motionsplan-modules.git"
 projects[motionsplan][download][branch] = "7.x-1.x"
 
+projects[motionsplan_exercise][type] = module
+projects[motionsplan_exercise][download][type] = "git"
+projects[motionsplan_exercise][download][url] = "git://github.com/motionsplan/motionsplan_exercise.git"
+projects[motionsplan_exercise][download][branch] = "7.x-1.x"
+
 ; themes ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 projects[exercise][type] = theme
