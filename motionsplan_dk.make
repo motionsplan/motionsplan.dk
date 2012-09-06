@@ -54,6 +54,9 @@ projects[media_youtube][version] = 1.0-beta3
 projects[media_vimeo][subdir] = contrib
 projects[media_vimeo][version] = 1.x-dev
 
+projects[mollom][subdir] = contrib
+projects[mollom][version] = 2.2
+
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.2
 
