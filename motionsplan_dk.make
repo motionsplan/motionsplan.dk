@@ -6,6 +6,9 @@ core = 7.x
 projects[cck][subdir] = contrib
 projects[cck][version] = 2.x-dev
 
+projects[ccl][subdir] = contrib
+projects[ccl][version] = 1.4
+
 projects[chart][subdir] = contrib
 projects[chart][version] = 1.x-dev
 
