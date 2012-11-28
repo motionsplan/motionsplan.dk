@@ -108,15 +108,20 @@ projects[wysiwyg][version] = 2.2
 
 ; custom ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-projects[motionsplan][type] = module
-projects[motionsplan][download][type] = "git"
-projects[motionsplan][download][url] = "git://github.com/motionsplan/motionsplan-modules.git"
-projects[motionsplan][download][branch] = "7.x-1.x"
-
 projects[motionsplan_exercise][type] = module
 projects[motionsplan_exercise][download][type] = "git"
 projects[motionsplan_exercise][download][url] = "git://github.com/motionsplan/motionsplan_exercise.git"
 projects[motionsplan_exercise][download][branch] = "7.x-1.x"
+
+projects[motionsplan_exercise_pdf][type] = module
+projects[motionsplan_exercise_pdf][download][type] = "git"
+projects[motionsplan_exercise_pdf][download][url] = "git://github.com/motionsplan/motionsplan_exercise_pdf.git"
+projects[motionsplan_exercise_pdf][download][branch] = "7.x-1.x"
+
+projects[motionsplan_exercise_program][type] = module
+projects[motionsplan_exercise_program][download][type] = "git"
+projects[motionsplan_exercise_program][download][url] = "git://github.com/motionsplan/motionsplan_exercise_pdf.git"
+projects[motionsplan_exercise_program][download][branch] = "7.x-1.x"
 
 ; themes ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
