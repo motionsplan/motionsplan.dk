@@ -25,19 +25,19 @@ projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-rc3
 
 projects[entityreference][subdir] = contrib
-projects[entityreference][version] = 1.x-dev
+projects[entityreference][version] = 1.0
 
 projects[features][subdir] = contrib
 projects[features][version] = 1.0
 
 projects[file_entity][subdir] = contrib
-projects[file_entity][version] = 2.0-unstable6
+projects[file_entity][version] = 2.0-unstable7
 
 projects[flag][subdir] = contrib
-projects[flag][version] = 2.0-beta9
+projects[flag][version] = 2.0
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 1.2
+projects[google_analytics][version] = 1.3
 
 projects[l10n_update][subdir] = contrib
 projects[l10n_update][version] = 1.0-beta3
@@ -46,10 +46,10 @@ projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.0
 
 projects[mailchimp][subdir] = contrib
-projects[mailchimp][version] = 2.6
+projects[mailchimp][version] = 2.7
 
 projects[media][subdir] = contrib
-projects[media][version] = 2.0-unstable6
+projects[media][version] = 2.0-unstable7
 
 projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 1.0-beta3
@@ -58,13 +58,13 @@ projects[media_vimeo][subdir] = contrib
 projects[media_vimeo][version] = 1.x-dev
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.2
+projects[mollom][version] = 2.3
 
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.2
 
 projects[quiz][subdir] = contrib
-projects[quiz][version] = 4.0-alpha9
+projects[quiz][version] = 4.0-alpha12
 
 projects[rpx][subdir] = contrib
 projects[rpx][version] = 2.2
@@ -86,7 +86,7 @@ projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0
 
 projects[token][subdir] = contrib
-projects[token][version] = 1.2
+projects[token][version] = 1.4
 
 projects[translation_helpers][subdir] = contrib
 projects[translation_helpers][version] = 1.0
@@ -104,7 +104,7 @@ projects[views_slideshow][subdir] = contrib
 projects[views_slideshow][version] = 3.0
 
 projects[wysiwyg][subdir] = contrib
-projects[wysiwyg][version] = 2.1
+projects[wysiwyg][version] = 2.2
 
 ; custom ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
