@@ -4,7 +4,7 @@ core = 7.x
 ; contrib modules ;;;;;;;;;;;;;;;;;;;;;;
 
 projects[ccl][subdir] = contrib
-projects[ccl][version] = 1.4
+projects[ccl][version] = 1.5
 
 projects[chart][subdir] = contrib
 projects[chart][version] = 1.x-dev
