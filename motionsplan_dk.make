@@ -3,9 +3,6 @@ core = 7.x
 
 ; contrib modules ;;;;;;;;;;;;;;;;;;;;;;
 
-projects[cck][subdir] = contrib
-projects[cck][version] = 2.x-dev
-
 projects[ccl][subdir] = contrib
 projects[ccl][version] = 1.4
 
@@ -69,9 +66,6 @@ projects[quiz][version] = 4.0-alpha9
 projects[rpx][subdir] = contrib
 projects[rpx][version] = 2.2
 projects[rpx][patch][1678124] = http://drupal.org/files/rpx-1678124-1.patch
-
-projects[references][subdir] = contrib
-projects[references][version] = 2.0
 
 projects[references_dialog][subdir] = contrib
 projects[references_dialog][version] = 1.0-alpha4
