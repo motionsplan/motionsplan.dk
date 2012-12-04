@@ -49,10 +49,10 @@ projects[media][subdir] = contrib
 projects[media][version] = 2.0-unstable7
 
 projects[media_youtube][subdir] = contrib
-projects[media_youtube][version] = 1.0-beta3
+projects[media_youtube][version] = 2.x-dev
 
 projects[media_vimeo][subdir] = contrib
-projects[media_vimeo][version] = 1.x-dev
+projects[media_vimeo][version] = 2.x-dev
 
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.3
