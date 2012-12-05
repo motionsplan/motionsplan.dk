@@ -36,6 +36,9 @@ projects[flag][version] = 2.0
 projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.3
 
+projects[google_analytics_reports][subdir] = contrib
+projects[google_analytics_reports][version] = 3.x-dev
+
 projects[l10n_update][subdir] = contrib
 projects[l10n_update][version] = 1.0-beta3
 
