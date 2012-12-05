@@ -60,6 +60,9 @@ projects[media_vimeo][version] = 2.x-dev
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.3
 
+projects[oauth][subdir] = contrib
+projects[oauth][version] = 3.0
+
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.2
 
