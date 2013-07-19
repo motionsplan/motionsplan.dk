@@ -20,7 +20,5 @@ before_script:
   - drush cc all --yes
 
 script: 
-  - test -d profiles/motionsplan_dk
-  - test -d profiles/motionsplan_dk/modules/contrib
-  - test -d profiles/motionsplan_dk/modules/motionsplan
-  - test -d profiles/motionsplan_dk/themes
+  - test -d sites/all/modules/contrib
+
