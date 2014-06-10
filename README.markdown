@@ -14,15 +14,7 @@ Installation
 
 To build a complete site, run:
 
-    drush make motionsplan_dk.build ~/workspace/motionsplan_dk_build
-
-Then you need to run the following commands:
-
-    cd sites/default
-    cp default.settings.php settings.php
-    chmod 777 settings.php
-    mkdir files
-    chmod 777 files
+    drush make --prepare-install motionsplan_dk.build ~/workspace/motionsplan_dk_build
 
 Navigate to the root directory in a webbrowser.
 
