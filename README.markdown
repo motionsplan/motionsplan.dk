@@ -14,7 +14,7 @@ Installation
 
 To build a complete site, run:
 
-    drush make --prepare-install motionsplan_dk.build ~/workspace/motionsplan_dk_build
+    drush make --prepare-install build-motionsplan.make ~/workspace/motionsplan_dk_build
 
 Navigate to the root directory in a webbrowser.
 
@@ -23,10 +23,10 @@ Navigate to the root directory in a webbrowser.
 If you want to update just the install profile instead of rebuilding the
 entire site, you can run this:
 
-    drush make --no-core --contrib-destination=. motionsplan_dk.make
+    drush make --no-core --contrib-destination=. drupal-org.make
 
 #### Rebuild everything ####
 
 If you want to force a rebuild of everything, you can do:
 
-    drush si motionsplan_dk
+    drush si minimal
