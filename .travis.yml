@@ -1,24 +1,39 @@
 language: php
 
 php:
-  - 5.3
+  - 5.4
 
 mysql:
   database: drupal
   username: root
   encoding: utf8
-  
-before_script:
+
+install: 
+  - sudo apt-get update > /dev/null
   - "mysql -e 'create database drupal;'"
-  - pear channel-discover pear.drush.org
-  - pear install drush/drush
+
+  # Install the latest Drush 6.
+  - export PATH="$HOME/.composer/vendor/bin:$PATH"
+  - composer global require drush/drush:6.*
   - phpenv rehash
+
+  # Build Behat dependencies
+  - cd ./tests/behat
+  - composer install --no-interaction
+  - cd ../../../
+
+  # Disable sendmail
+  - echo sendmail_path=`which true` >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+
+before_script:
+
   - drush make build-motionsplan.make ../motionsplan-dev.dk
   - cd ../motionsplan-dev.dk
   - sudo chmod -R 777 sites/
   - drush si motionsplan_dk --verbose --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=VIH@2012 --site-mail=admin@example.com --site-name="motionsplan.dk" --yes
+  - drush en motionsplan_deploy -y
   - drush cc all --yes
 
 script: 
-  - test -d sites/all/modules/contrib
 
+- test -d sites/all/modules/contrib

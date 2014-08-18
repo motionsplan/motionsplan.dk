@@ -3,6 +3,13 @@ core = 7.x
 
 ; custom ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+projects[motionsplan_deploy][type] = module
+projects[motionsplan_deploy][subdir] = motionsplan
+projects[motionsplan_deploy][download][type] = "git"
+projects[motionsplan_deploy][download][url] = "https://github.com/motionsplan/motionsplan_deploy.git"
+projects[motionsplan_deploy][download][branch] = "7.x-1.x"
+projects[motionsplan_deploy][download][revision] = "6ee639df4c79bcf85b79f932af9cbe441b0402db"
+
 projects[motionsplan_exercise][type] = module
 projects[motionsplan_exercise][subdir] = motionsplan
 projects[motionsplan_exercise][download][type] = "git"
