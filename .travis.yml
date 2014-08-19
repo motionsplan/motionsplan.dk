@@ -31,4 +31,4 @@ before_script:
 
 script: 
 
-- test -d sites/all/modules/contrib
+  - test -d sites/all/modules/contrib

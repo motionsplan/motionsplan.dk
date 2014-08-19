@@ -15,21 +15,21 @@ projects[motionsplan_exercise][subdir] = motionsplan
 projects[motionsplan_exercise][download][type] = "git"
 projects[motionsplan_exercise][download][url] = "https://github.com/motionsplan/motionsplan_exercise.git"
 projects[motionsplan_exercise][download][branch] = "7.x-1.x"
-projects[motionsplan_exercise][download][revision] = "dd5a266528893e192e1ec5b2b79f3e3d203ede0d"
+projects[motionsplan_exercise][download][revision] = "bcca3ee"
 
 projects[motionsplan_exercise_pdf][type] = module
 projects[motionsplan_exercise_pdf][subdir] = motionsplan
 projects[motionsplan_exercise_pdf][download][type] = "git"
 projects[motionsplan_exercise_pdf][download][url] = "https://github.com/motionsplan/motionsplan_exercise_pdf.git"
 projects[motionsplan_exercise_pdf][download][branch] = "7.x-1.x"
-projects[motionsplan_exercise_pdf][download][revision] = 633fa61885ae5aa7cab31d5b0e26ac824681c3b2
+projects[motionsplan_exercise_pdf][download][revision] = "633fa61885ae5aa7cab31d5b0e26ac824681c3b2"
 
 projects[motionsplan_exercise_program][type] = module
 projects[motionsplan_exercise_program][subdir] = motionsplan
 projects[motionsplan_exercise_program][download][type] = "git"
 projects[motionsplan_exercise_program][download][url] = "https://github.com/motionsplan/motionsplan_exercise_program.git"
 projects[motionsplan_exercise_program][download][branch] = "7.x-1.x"
-projects[motionsplan_exercise_program][download][revision] = "0c1cffe861a6b5b52140beb9d2f87180c77061ed"
+projects[motionsplan_exercise_program][download][revision] = "f5e5e2e"
 
 ; themes ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
