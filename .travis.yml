@@ -17,11 +17,6 @@ install:
   - composer global require drush/drush:6.*
   - phpenv rehash
 
-  # Build Behat dependencies
-  - cd ./tests/behat
-  - composer install --no-interaction
-  - cd ../../../
-
   # Disable sendmail
   - echo sendmail_path=`which true` >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
 
