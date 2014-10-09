@@ -32,3 +32,6 @@ before_script:
 script: 
 
   - test -d sites/all/modules/contrib
+
+  # Test if any features are overridden.
+  - profiles/motionsplan_dk/scripts/check-overridden.sh
