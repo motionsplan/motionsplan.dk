@@ -1,14 +1,17 @@
 language: php
 
 php:
+
   - 5.4
 
 mysql:
+
   database: drupal
   username: root
   encoding: utf8
 
-install: 
+install:
+
   - sudo apt-get update > /dev/null
   - "mysql -e 'create database drupal;'"
 
@@ -20,18 +23,57 @@ install:
   # Disable sendmail
   - echo sendmail_path=`which true` >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
 
+  # Build Behat dependencies
+  - cd ./tests/behat
+  - composer install --no-interaction
+  - cd ../../../
+
+  # Build Codebase
+  - mkdir private_files
+  - mkdir profiles
+  - mv motionsplan.dk profiles/motionsplan_dk
+  - mkdir drupal
+  - mv profiles drupal/
+
+  # Test the current branch
+  - cd drupal
+  - drush make --prepare-install profiles/motionsplan_dk/build-motionsplan.make --yes
+  - cd ../
+
+  # Setup files
+  - sudo chmod -R 777 drupal/sites/all
+
+  # Setup display for Selenium
+  - export DISPLAY=:99.0
+  - sh -e /etc/init.d/xvfb start
+  - sleep 5
+
+  # Get Selenium
+  - wget http://selenium-release.storage.googleapis.com/2.41/selenium-server-standalone-2.41.0.jar
+  - java -jar selenium-server-standalone-2.41.0.jar > /dev/null 2>&1 &
+  - until netstat -an 2>/dev/null | grep '4444.*LISTEN'; do true; done
+
+  # Disable sendmail
+  - echo sendmail_path=`which true` >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+
 before_script:
 
-  - drush make build-motionsplan.make ../motionsplan-dev.dk
-  - cd ../motionsplan-dev.dk
-  - sudo chmod -R 777 sites/
-  - drush si motionsplan_dk --verbose --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=VIH@2012 --site-mail=admin@example.com --site-name="motionsplan.dk" --yes
-  - drush en motionsplan_deploy -y
-  - drush cc all --yes
+  - cd drupal
+  - drush si motionsplan_dk --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=admin --site-mail=admin@example.com --site-name="motionsplan.dk" --yes
+  - drush pm-disable dblog --yes
+  - drush en motionsplan_deploy --yes
+  - drush runserver --server=builtin 8888 > /dev/null 2>&1 &
+  - until netstat -an 2>/dev/null | grep '8888.*LISTEN'; do true; done
+  - cd profiles/motionsplan_dk/tests/behat
 
-script: 
+  # Make the Travis tests repos agnostic by injecting drupal_root with BEHAT_PARAMS
+  - BUILD_OWNER=`dirname $TRAVIS_BUILD_DIR`
+  - export BEHAT_PARAMS="extensions[Drupal\\DrupalExtension\\Extension][drupal][drupal_root]=$BUILD_OWNER/drupal"
 
-  - test -d sites/all/modules/contrib
+script:
 
   # Test if any features are overridden.
-  - profiles/motionsplan_dk/scripts/check-overridden.sh
+  - ../../scripts/check-overridden.sh
+
+  # Run Behat tests
+  - ./bin/behat --config behat.travis.yml
