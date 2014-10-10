@@ -36,7 +36,7 @@ projects[motionsplan_search][subdir] = motionsplan
 projects[motionsplan_search][download][type] = "git"
 projects[motionsplan_search][download][url] = "https://github.com/motionsplan/motionsplan_search.git"
 projects[motionsplan_search][download][branch] = "7.x-1.x"
-projects[motionsplan_search][download][revision] = "5c5c86b"
+projects[motionsplan_search][download][revision] = "89630a7"
 
 ; themes ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
