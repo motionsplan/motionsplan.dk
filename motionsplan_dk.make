@@ -29,7 +29,7 @@ projects[motionsplan_exercise_program][subdir] = motionsplan
 projects[motionsplan_exercise_program][download][type] = "git"
 projects[motionsplan_exercise_program][download][url] = "https://github.com/motionsplan/motionsplan_exercise_program.git"
 projects[motionsplan_exercise_program][download][branch] = "7.x-1.x"
-projects[motionsplan_exercise_program][download][revision] = "24ae2f0"
+projects[motionsplan_exercise_program][download][revision] = "4f018e1"
 
 projects[motionsplan_search][type] = module
 projects[motionsplan_search][subdir] = motionsplan
