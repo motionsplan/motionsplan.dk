@@ -1,9 +1,8 @@
-Feature: Login Commerce Kickstart
+Feature: Login Motionsplan
   In order to start using additional features of the site
   As an anonymous user
   I should be able to Login
 
-  @javascript
   Scenario: Username validation: Invalid username
     When I go to "/user/login"
       And I fill in "Username" with "strange"
