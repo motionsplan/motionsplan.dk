@@ -3,7 +3,7 @@
 : ${DRUSH:=drush}
 : ${DRUSH_ARGS:=}
 
-MOTIONSPLAN_FEATURES="motionsplan_exercise motionsplan_exercise_program motionsplan_exercise_pdf" 
+MOTIONSPLAN_FEATURES="motionsplan_exercise motionsplan_exercise_program motionsplan_exercise_pdf motionsplan_search"
 
 # TODO: We should make sure that 'diff' is downloaded first!
 $DRUSH $DRUSH_ARGS en -y diff
