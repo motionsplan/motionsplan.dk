@@ -15,7 +15,7 @@ projects[motionsplan_exercise][subdir] = motionsplan
 projects[motionsplan_exercise][download][type] = "git"
 projects[motionsplan_exercise][download][url] = "https://github.com/motionsplan/motionsplan_exercise.git"
 projects[motionsplan_exercise][download][branch] = "7.x-1.x"
-projects[motionsplan_exercise][download][revision] = "fb73b36"
+projects[motionsplan_exercise][download][revision] = "9b62eab"
 
 projects[motionsplan_exercise_pdf][type] = module
 projects[motionsplan_exercise_pdf][subdir] = motionsplan
@@ -36,7 +36,7 @@ projects[motionsplan_search][subdir] = motionsplan
 projects[motionsplan_search][download][type] = "git"
 projects[motionsplan_search][download][url] = "https://github.com/motionsplan/motionsplan_search.git"
 projects[motionsplan_search][download][branch] = "7.x-1.x"
-projects[motionsplan_search][download][revision] = "89630a7"
+projects[motionsplan_search][download][revision] = "61c5c57"
 
 ; themes ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
