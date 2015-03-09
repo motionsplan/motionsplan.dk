@@ -30,3 +30,5 @@ entire site, you can run this:
 If you want to force a rebuild of everything, you can do:
 
     drush si minimal
+    drush en motionsplan_deploy -y
+    drush mi --all
