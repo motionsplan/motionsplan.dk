@@ -45,6 +45,20 @@ projects[sparta_frontpage_feature][download][url] = "https://bitbucket.org/lsole
 projects[sparta_frontpage_feature][download][branch] = "7.x-1.x"
 projects[sparta_frontpage_feature][download][revision] = "c2cf314"
 
+projects[sparta_frontpage_widget][type] = module
+projects[sparta_frontpage_widget][subdir] = motionsplan
+projects[sparta_frontpage_widget][download][type] = "git"
+projects[sparta_frontpage_widget][download][url] = "https://bitbucket.org/lsolesen/sparta_frontpage_widget.git"
+projects[sparta_frontpage_widget][download][branch] = "7.x-1.x"
+projects[sparta_frontpage_widget][download][revision] = "9b75de2"
+
+projects[sparta_about_the_author][type] = module
+projects[sparta_about_the_author][subdir] = motionsplan
+projects[sparta_about_the_author][download][type] = "git"
+projects[sparta_about_the_author][download][url] = "https://bitbucket.org/lsolesen/sparta_about_the_author.git"
+projects[sparta_about_the_author][download][branch] = "7.x-1.x"
+projects[sparta_about_the_author][download][revision] = "38e8f16"
+
 ; Themes ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 projects[exercise][type] = theme
@@ -52,3 +66,9 @@ projects[exercise][download][type] = "git"
 projects[exercise][download][url] = "https://github.com/motionsplan/motionsplan-theme.git"
 projects[exercise][download][branch] = "7.x-1.x"
 projects[exercise][download][revision] = "3176ef32d5c983c58f1b8ca6dfed5a100c5ca334"
+
+projects[sparta][type] = theme
+projects[sparta][download][type] = "git"
+projects[sparta][download][url] = "https://bitbucket.org/lsolesen/sparta.git"
+projects[sparta][download][branch] = "7.x-1.x"
+projects[sparta][download][revision] = "0c86500"
