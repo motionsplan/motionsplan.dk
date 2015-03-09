@@ -38,7 +38,14 @@ projects[motionsplan_search][download][url] = "https://github.com/motionsplan/mo
 projects[motionsplan_search][download][branch] = "7.x-1.x"
 projects[motionsplan_search][download][revision] = "eeecedf"
 
-; themes ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+projects[sparta_frontpage_feature][type] = module
+projects[sparta_frontpage_feature][subdir] = motionsplan
+projects[sparta_frontpage_feature][download][type] = "git"
+projects[sparta_frontpage_feature][download][url] = "https://bitbucket.org/lsolesen/sparta_frontpage_feature.git"
+projects[sparta_frontpage_feature][download][branch] = "7.x-1.x"
+projects[sparta_frontpage_feature][download][revision] = "c2cf314"
+
+; Themes ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 projects[exercise][type] = theme
 projects[exercise][download][type] = "git"
