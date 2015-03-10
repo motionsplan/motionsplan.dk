@@ -67,6 +67,9 @@ projects[exercise][download][url] = "https://github.com/motionsplan/motionsplan-
 projects[exercise][download][branch] = "7.x-1.x"
 projects[exercise][download][revision] = "3176ef32d5c983c58f1b8ca6dfed5a100c5ca334"
 
+projects[omega][type] = theme
+projects[omega][version] = "3.1"
+
 projects[sparta][type] = theme
 projects[sparta][download][type] = "git"
 projects[sparta][download][url] = "https://bitbucket.org/lsolesen/sparta.git"
