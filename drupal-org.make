@@ -8,7 +8,7 @@ projects[motionsplan_deploy][subdir] = motionsplan
 projects[motionsplan_deploy][download][type] = "git"
 projects[motionsplan_deploy][download][url] = "https://github.com/motionsplan/motionsplan_deploy.git"
 projects[motionsplan_deploy][download][branch] = "7.x-1.x"
-projects[motionsplan_deploy][download][revision] = "c4acfcd"
+projects[motionsplan_deploy][download][revision] = "fd4047a"
 
 projects[motionsplan_exercise][type] = module
 projects[motionsplan_exercise][subdir] = motionsplan
