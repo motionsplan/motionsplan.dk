@@ -3,7 +3,7 @@ description = Install profile for motionsplan.dk
 version = 7.x-1.0
 core = 7.x
 
-; core modules ;;;;;;;;;;;;;;
+; Core modules ;;;;;;;;;;;;;;
 
 dependencies[] = block
 dependencies[] = color
@@ -20,7 +20,7 @@ dependencies[] = toolbar
 dependencies[] = field_ui
 dependencies[] = file
 
-; contrib modules ;;;;;;;;;;;;
+; Contrib modules ;;;;;;;;;;;;
 
 dependencies[] = features
 dependencies[] = googleanalytics
@@ -30,3 +30,7 @@ dependencies[] = strongarm
 dependencies[] = views
 dependencies[] = views_ui
 dependencies[] = wysiwyg
+
+; Custom modules ;;;;;;;;;;;;
+
+dependencies[] = motionsplan_deploy
