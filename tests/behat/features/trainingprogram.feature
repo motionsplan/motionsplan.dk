@@ -7,7 +7,7 @@ Feature: Create trainingprogram
   Scenario: Create trainingprogram
     Given I am logged in as a user with the "authenticated user" role
     When I am on "node/add/trainingprogram"
-    Then I should see "Create Træningsprogram"
+    Then I should see the heading "Create Træningsprogram"
     When I fill in the following:
       | Titel     | Trainingprogram         |
       | Brødtekst | Awesome Trainingprogram |

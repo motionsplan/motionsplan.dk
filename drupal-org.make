@@ -36,7 +36,7 @@ projects[motionsplan_search][subdir] = motionsplan
 projects[motionsplan_search][download][type] = "git"
 projects[motionsplan_search][download][url] = "https://github.com/motionsplan/motionsplan_search.git"
 projects[motionsplan_search][download][branch] = "7.x-1.x"
-projects[motionsplan_search][download][revision] = "eeecedf"
+projects[motionsplan_search][download][revision] = "0328436"
 
 projects[sparta_frontpage_feature][type] = module
 projects[sparta_frontpage_feature][subdir] = motionsplan
