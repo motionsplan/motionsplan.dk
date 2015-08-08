@@ -31,9 +31,6 @@ install:
   - travis_retry composer global require "drush/drush:6.*"
   - export PATH="$HOME/.composer/vendor/bin:$PATH"
 
-  # Disable sendmail
-  - echo sendmail_path=`which true` >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
-
   # Build Behat dependencies
   - cd ./tests/behat
   - composer install --no-interaction
