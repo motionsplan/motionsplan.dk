@@ -62,6 +62,9 @@ install:
   # Disable sendmail
   - echo sendmail_path=`which true` >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
 
+  # Disable XDebug for performance on Travis
+  - phpenv config-rm xdebug.ini || true
+
 before_script:
 
   - cd drupal
