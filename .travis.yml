@@ -43,7 +43,7 @@ install:
 
   # Test the current branch
   - cd drupal
-  - drush make --prepare-install profiles/motionsplan_dk/build-motionsplan.make --yes
+  - drush make --prepare-install profiles/motionsplan_dk/build-motionsplan-dev.make --yes
   - cd ../
 
   # Setup files
