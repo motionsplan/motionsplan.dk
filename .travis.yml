@@ -43,7 +43,7 @@ install:
 
   # Test the current branch
   - cd drupal
-  - drush make --prepare-install profiles/motionsplan_dk/build-motionsplan.make --yes
+  - drush make --prepare-install profiles/motionsplan_dk/build-motionsplan-dev.make --yes
   - cd ../
 
   # Setup files
@@ -61,6 +61,9 @@ install:
 
   # Disable sendmail
   - echo sendmail_path=`which true` >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+
+  # Disable XDebug for performance on Travis
+  - phpenv config-rm xdebug.ini || true
 
 before_script:
 
