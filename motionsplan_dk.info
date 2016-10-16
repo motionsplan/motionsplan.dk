@@ -10,25 +10,16 @@ dependencies[] = color
 dependencies[] = comment
 dependencies[] = contextual
 dependencies[] = help
-dependencies[] = image
 dependencies[] = menu
 dependencies[] = path
-dependencies[] = taxonomy
-dependencies[] = search
 dependencies[] = shortcut
 dependencies[] = toolbar
-dependencies[] = field_ui
-dependencies[] = file
 
 ; Contrib modules ;;;;;;;;;;;;
 
-dependencies[] = features
 dependencies[] = googleanalytics
 dependencies[] = libraries
 dependencies[] = pathauto
-dependencies[] = strongarm
-dependencies[] = views
-dependencies[] = views_ui
 dependencies[] = wysiwyg
 
 ; Custom modules ;;;;;;;;;;;;
