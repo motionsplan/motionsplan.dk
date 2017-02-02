@@ -5,6 +5,8 @@ defaults[projects][subdir] = contrib
 
 ; Contrib
 
+projects[admin_views][version] = 1.6
+
 projects[chart][version] = 1.x-dev
 projects[chart][download][type] = git
 projects[chart][download][revision] = 860c75c27c296a4135ac1efac773ba1cdf7edf7c
@@ -12,15 +14,11 @@ projects[chart][download][branch] = 7.x-1.x
 
 projects[colorfield][version] = 1.1
 
-projects[ctools][version] = 1.10
+projects[ctools][version] = 1.12
 
-projects[entity][version] = 1.7
+projects[entity][version] = 1.8
 
-projects[entityreference][version] = 1.x-dev
-projects[entityreference][download][type] = git
-projects[entityreference][download][revision] = 902b5edc674e0e7920aa77b94ae8d6ef05ac492b
-projects[entityreference][download][branch] = 7.x-1.x
-projects[entityreference][patch][1699378] = http://drupal.org/files/view-argument-as-token-1699378-41.patch
+projects[entityreference][version] = 1.2
 
 projects[facetapi][version] = 1.5
 projects[facetapi][patch][1616518] = https://www.drupal.org/files/1616518-term_remove_link-24.patch
@@ -33,19 +31,19 @@ projects[file_entity][version] = 2.0-beta3
 
 projects[flag][version] = 2.2
 
-projects[google_analytics][version] = 2.2
+projects[google_analytics][version] = 2.3
 
 projects[inline_entity_form][version] = 1.8
 
 projects[libraries][version] = 2.3
 
-projects[media][version] = 2.0-beta2
+projects[media][version] = 2.0-rc3
 
 projects[media_vimeo][version] = 2.1
 
 projects[media_youtube][version] = 3.0
 
-projects[metatag][version] = 1.16
+projects[metatag][version] = 1.20
 
 projects[pathauto][version] = 1.3
 
@@ -53,7 +51,9 @@ projects[redirect][version] = 1.0-rc3
 
 projects[references_dialog][version] = 1.0-beta2
 
-projects[search_api][version] = 1.18
+projects[scheduler][version] = 1.5
+
+projects[search_api][version] = 1.20
 
 projects[search_api_db][version] = 1.5
 
@@ -64,6 +64,8 @@ projects[token][version] = 1.6
 projects[transliteration][version] = 3.2
 
 projects[views][version] = 3.14
+
+projects[views_slideshow][version] = 3.4
 
 projects[wysiwyg][version] = 2.x-dev
 projects[wysiwyg][download][type] = git
@@ -98,7 +100,7 @@ projects[motionsplan_exercise_program][subdir] = motionsplan
 projects[motionsplan_exercise_program][download][type] = "git"
 projects[motionsplan_exercise_program][download][url] = "https://github.com/motionsplan/motionsplan_exercise_program.git"
 projects[motionsplan_exercise_program][download][branch] = "7.x-1.x"
-projects[motionsplan_exercise_program][download][revision] = "fc2e4e9"
+projects[motionsplan_exercise_program][download][revision] = "4ebf2b4b1b3bc16a524578b183449438eb3a0bca"
 
 projects[motionsplan_search][type] = module
 projects[motionsplan_search][subdir] = motionsplan
