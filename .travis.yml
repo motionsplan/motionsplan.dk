@@ -88,3 +88,7 @@ script:
 
   # Run Behat tests
   - ./bin/behat --config behat.travis.yml
+
+  # Test directories.
+  - test -d ../../../../profiles
+  - test -d ../../../motionsplan_dk
