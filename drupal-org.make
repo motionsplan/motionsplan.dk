@@ -37,13 +37,13 @@ projects[inline_entity_form][version] = 1.8
 
 projects[libraries][version] = 2.3
 
-projects[media][version] = 2.0-rc3
+projects[media][version] = 2.9
 
 projects[media_vimeo][version] = 2.1
 
-projects[media_youtube][version] = 3.0
+projects[media_youtube][version] = 3.4
 
-projects[metatag][version] = 1.20
+projects[metatag][version] = 1.22
 
 projects[pathauto][version] = 1.3
 
@@ -53,24 +53,21 @@ projects[references_dialog][version] = 1.0-beta2
 
 projects[scheduler][version] = 1.5
 
-projects[search_api][version] = 1.20
+projects[search_api][version] = 1.22
 
-projects[search_api_db][version] = 1.5
+projects[search_api_db][version] = 1.6
 
 projects[strongarm][version] = 2.0
 
-projects[token][version] = 1.6
+projects[token][version] = 1.7
 
 projects[transliteration][version] = 3.2
 
-projects[views][version] = 3.14
+projects[views][version] = 3.16
 
-projects[views_slideshow][version] = 3.4
+projects[views_slideshow][version] = 3.9
 
-projects[wysiwyg][version] = 2.x-dev
-projects[wysiwyg][download][type] = git
-projects[wysiwyg][download][revision] = 3cb63de
-projects[wysiwyg][download][branch] = 7.x-2.x
+projects[wysiwyg][version] = 2.4
 
 ; Custom
 
