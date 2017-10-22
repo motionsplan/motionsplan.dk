@@ -7,6 +7,8 @@ defaults[projects][subdir] = contrib
 
 projects[admin_views][version] = 1.6
 
+projects[ccl][version] = 1.6
+
 projects[chart][version] = 1.x-dev
 projects[chart][download][type] = git
 projects[chart][download][revision] = 860c75c27c296a4135ac1efac773ba1cdf7edf7c
@@ -16,9 +18,11 @@ projects[colorfield][version] = 1.1
 
 projects[ctools][version] = 1.12
 
+projects[diff][version] = 3.3
+
 projects[entity][version] = 1.8
 
-projects[entityreference][version] = 1.2
+projects[entityreference][version] = 1.5
 
 projects[facetapi][version] = 1.5
 projects[facetapi][patch][1616518] = https://www.drupal.org/files/1616518-term_remove_link-24.patch
@@ -27,23 +31,27 @@ projects[features][version] = 2.10
 
 projects[features_override][version] = 2.0-rc3
 
-projects[file_entity][version] = 2.0-beta3
+projects[file_entity][version] = 2.11
 
 projects[flag][version] = 2.2
 
-projects[google_analytics][version] = 2.3
+projects[google_analytics][version] = 2.4
 
 projects[inline_entity_form][version] = 1.8
 
 projects[libraries][version] = 2.3
 
-projects[media][version] = 2.9
+projects[media][version] = 2.13
 
 projects[media_vimeo][version] = 2.1
 
-projects[media_youtube][version] = 3.4
+projects[media_youtube][version] = 3.5
 
 projects[metatag][version] = 1.22
+
+projects[module_filter][version] = 2.1
+
+projects[oauth][version] = 3.4
 
 projects[pathauto][version] = 1.3
 
@@ -57,13 +65,29 @@ projects[search_api][version] = 1.22
 
 projects[search_api_db][version] = 1.6
 
+projects[semanticviews][version] = 1.0
+
+projects[site_verify][version] = 1.2
+
 projects[strongarm][version] = 2.0
+
+projects[sumome][version] = 1.0
+
+projects[superfish][version] = 1.x-dev
+projects[superfish][download][type] = git
+projects[superfish][download][revision] = a612a8b27585b9101c6df21a5161decf7af1faee
+projects[superfish][download][branch] = 7.x-1.x
+projects[superfish][patch][2163545] = https://drupal.org/files/issues/issue-2163545.patch
 
 projects[token][version] = 1.7
 
 projects[transliteration][version] = 3.2
 
-projects[views][version] = 3.16
+projects[quiz][version] = 4.0-rc8
+
+projects[views][version] = 3.18
+
+projects[views_bulk_operations][version] = 3.4
 
 projects[views_slideshow][version] = 3.9
 
