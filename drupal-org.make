@@ -31,7 +31,9 @@ projects[features][version] = 2.10
 
 projects[features_override][version] = 2.0-rc3
 
-projects[file_entity][version] = 2.11
+projects[file_entity][version] = 2.12
+
+projects[field_group][version] = 1.6
 
 projects[flag][version] = 2.2
 
@@ -88,6 +90,8 @@ projects[quiz][version] = 4.0-rc8
 projects[views][version] = 3.18
 
 projects[views_bulk_operations][version] = 3.4
+
+projects[views_data_export][version] = 3.2
 
 projects[views_slideshow][version] = 3.9
 
