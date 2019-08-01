@@ -113,7 +113,7 @@ projects[token][version] = 1.7
 
 projects[transliteration][version] = 3.2
 
-projects[quiz][version] = 4.0-rc8
+projects[quiz][version] = 5.2
 
 projects[url][version] = 1.0
 
