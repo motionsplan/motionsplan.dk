@@ -113,7 +113,7 @@ projects[token][version] = 1.7
 
 projects[transliteration][version] = 3.2
 
-projects[quiz][version] = 5.2
+projects[quiz][version] = 5.5
 
 projects[url][version] = 1.0
 
@@ -184,6 +184,19 @@ projects[sparta_about_the_author][download][type] = "git"
 projects[sparta_about_the_author][download][url] = "https://bitbucket.org/lsolesen/sparta_about_the_author.git"
 projects[sparta_about_the_author][download][branch] = "7.x-1.x"
 projects[sparta_about_the_author][download][revision] = "38e8f16"
+
+; Libraries
+
+libraries[tcpdf][download][type] = "git"
+libraries[tcpdf][download][url] = http://git.code.sf.net/p/tcpdf/code
+libraries[tcpdf][destination] = "libraries"
+; Download 5.9.149
+libraries[tcpdf][download][revision] = e9ebd692d5c5b1db8d9fa3a276662e75ceb9ac5a
+
+libraries[fpdf][download][type] = "git"
+libraries[fpdf][download][url] = "https://github.com/Setasign/FPDF.git"
+libraries[fpdf][download][tag] = 1.7
+libraries[fpdf][destination] = "libraries"
 
 ; Themes
 
